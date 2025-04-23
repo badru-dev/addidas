@@ -1,0 +1,833 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+.main-dropdown {
+  background-color: black;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 12px;
+  padding: 2px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+
+
+.semi-header {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 1.2em;
+  padding-right: 140px;
+}
+.semi-header a {
+  color: black;
+  text-decoration: none;
+  font-size: 10px;
+}
+header{
+  padding: 10px 20px;
+  /* border: 1px solid black; */
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.li {
+  display: flex;
+  align-items: center;
+  gap: 1.2em;
+}
+.li a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+.li2 a {
+  color: red;
+}
+.form-control {
+  background-color: #eceff1;
+}
+.fa-magnifying-glass {
+  display: flex;
+  align-items: center;
+  margin-left: -48px;
+}
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 1.8em;
+  cursor: pointer;
+}
+.fa-bars {
+  font-size: 20px;
+  /* visibility: hidden; */
+}
+.header-icon{
+  display: none;
+}
+.logo{
+  width: 90px;
+}
+@media (max-width:992px){
+       .li{
+        display: none;
+       }
+
+       .input{
+        display: none;
+       }
+       .favourite{
+        display: none;
+       }
+       .header-icon{
+        display: block;
+       }
+       .semi-header{
+        display: none;
+       }
+       .logo{
+        width: 50px;
+       }
+}
+
+/* hero-sect */
+.hero-sect {
+  display: block;
+  position: relative;
+  padding: -10px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: white;
+  padding: 12px 18px;
+  top: 400px;
+  left: 200px;
+}
+.button-container a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.shop-now-button {
+  background-color: #fff;
+  padding: 8px 18px;
+  border: 2px solid #000;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3 ease;
+}
+.shop-now-button:hover {
+  color: #d9d1d19f;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+.hero-image h2 {
+  position: absolute;
+  align-items: center;
+  top: 300px;
+  left: 200px;
+  font-size: 44px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+}
+.firebird-container h3 {
+  position: absolute;
+  bottom: 400px;
+  left: 180px;
+  font-size: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  font-weight: 700;
+}
+.retro-text {
+  position: absolute;
+  bottom: 350px;
+  left: 180px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  font-size: 20px;
+}
+.button-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: white;
+  padding: 12px 18px;
+  bottom: 240px;
+  left: 180px;
+}
+.button-container2 a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.shop-now-button2 {
+  background-color: #fff;
+  padding: 8px 18px;
+  border: 2px solid #000;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3 ease;
+}
+.shop-now-button:hover {
+  color: #d9d1d19f;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* media quary */
+@media (max-width:1261px){
+   .hero-image h2{
+        top: 200px;
+        left: 180px;
+    }
+    .button-container{
+        top: 300px;
+        left: 180px;
+    }
+    .firebird-container h3{
+        bottom: 350px;
+        left: 180px;
+    }
+    .retro-text{
+        bottom: 290px;
+        left: 180px;
+    }
+    .button-container2{
+        bottom: 200px;
+    }
+}
+
+@media (max-width:1199px){
+    .hero-image h2{
+        top: 200px;
+        left: 180px;
+    }
+    .button-container{
+        top: 300px;
+        left: 180px;
+    }
+    .firebird-container h3{
+        bottom: 310px;
+        left: 150px;
+        font-size: 30px;
+    }
+    .retro-text{
+        bottom: 250px;
+        left: 150px;
+        font-size: 15px;
+    }
+    .button-container2{
+        bottom: 170px;
+        left: 150px;
+        padding: 10px 14px;
+    }
+}
+@media (max-width:1052px){
+ .hero-image h2{
+      top: 170px;
+      left: 120px;
+  }
+  .button-container{
+      top: 250px;
+      left: 120px;
+  }
+  .firebird-container h3{
+      bottom: 270px;
+      left: 120px;
+      font-size: 25px;
+  }
+  .retro-text{
+      bottom: 220px;
+      left: 120px;
+      font-size: 15px;
+  }
+  .button-container2{
+      bottom: 130px;
+      left: 120px;
+      padding: 10px 14px;
+  }
+}
+@media (max-width:960px){
+  .hero-image h2{
+      top: 160px;
+      left: 120px;
+  }
+  .button-container{
+      top: 254px;
+      left: 120px;
+      padding: 10px 14px;
+  }
+  .firebird-container h3{
+      bottom: 250px;
+      left: 120px;
+      font-size: 20px;
+  }
+  .retro-text{
+      bottom: 190px;
+      left: 120px;
+      font-size: 15px;
+  }
+  .button-container2{
+      bottom: 110px;
+      left: 120px;
+      padding: 8px 12px;
+  }
+}
+@media (max-width:834px){
+  .hero-image h2{
+      top: 130px;
+      left: 100px;
+      font-size: 28px;
+  }
+  .button-container{
+      top: 210px;
+      left: 100px;
+      padding: 8px 12px;
+  }
+  .firebird-container h3{
+      bottom: 210px;
+      left: 100px;
+      font-size: 20px;
+  }
+  .retro-text{
+      bottom: 150px;
+      left: 100px;
+      font-size: 15px;
+  }
+  .button-container2{
+      bottom: 90px;
+      left: 100px;
+      padding: 8px 12px;
+  }
+}
+
+
+@media (max-width: 841px) {
+  .header {
+    width: 100%;
+  }
+  .semi-header {
+    gap: 1em;
+    padding-right: 140px;
+  }
+}
+@media (max-width: 750px) {
+  .li {
+    visibility: hidden;
+  }
+  .semi-header {
+    padding-right: 140px;
+    gap: 0.8em;
+  }
+  .container{
+    display: none;
+  }
+}
+@media (max-width:708px){
+  .hero-image h2{
+      top: 100px;
+      left: 90px;
+      font-size: 25px;
+  }
+  .button-container{
+      top: 160px;
+      left: 90px;
+      padding: 8px 10px;
+  }
+  .firebird-container h3{
+      bottom: 180px;
+      left: 90px;
+      font-size: 20px;
+  }
+  .retro-text{
+      bottom: 130px;
+      left: 90px;
+      font-size: 15px;
+  }
+  .button-container2{
+      bottom: 70px;
+      left: 90px;
+      padding: 8px 10px;
+  }
+}
+@media (max-width:648px){
+  .hero-image h2{
+      top: 110px;
+      left: 90px;
+      font-size: 28px;
+  }
+  .button-container{
+      top: 160px;
+      left: 90px;
+      padding: 6px 8px;
+  }
+  .firebird-container h3{
+      bottom: 170px;
+      left: 90px;
+      font-size: 20px;
+  }
+  .retro-text{
+      bottom: 120px;
+      left: 90px;
+      font-size: 15px;
+  }
+  .button-container2{
+      bottom: 60px;
+      left: 90px;
+      padding: 8px 8px;
+  }
+}
+@media (max-width:614px){
+   .hero-image h2{
+      top: 90px;
+      left:80px;
+      font-size: 28px;
+  }
+  .button-container{
+      top: 140px;
+      left: 80px;
+      padding: 6px 8px;
+  }
+  .firebird-container h3{
+      bottom: 150px;
+      left: 80px;
+      font-size: 20px;
+  }
+  .retro-text{
+      bottom: 100px;
+      left: 80px;
+      font-size: 15px;
+  }
+  .button-container2{
+      bottom: 50px;
+      left: 80px;
+      padding: 8px 8px;
+  }
+}
+
+@media (max-width:541px){
+  .hero-image h2{
+      top: 70px;
+      left:70px;
+      font-size: 28px;
+  }
+  .button-container{
+      top: 120px;
+      left: 70px;
+      padding: 4px 6px;
+  }
+  .firebird-container h3{
+      bottom: 120px;
+      left: 70px;
+      font-size: 20px;
+  }
+  .retro-text{
+      bottom: 80px;
+      left: 70px;
+      font-size: 15px;
+  }
+  .button-container2{
+      bottom: 30px;
+      left: 70px;
+      padding: 6px 8px;
+  }
+}
+@media (max-width:593px){
+  .card{
+    width: 150px;
+    height: 50px;
+  }
+  .card img{
+    width: 100%;
+  }
+  .card-content{
+    padding: 8px;
+  }
+  .price {
+    font-size: 10px;
+    margin-bottom: 2px;
+  }
+}
+
+
+/* main page */
+.top-text p{
+  font-weight: 700;
+  font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align:center;
+}
+
+/* card-section */
+.carousel-container {
+  width: 100%;
+  max-width: 1400px;
+  position: relative;
+}
+
+.carousel {
+  display: flex;
+  gap: 16px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding: 10px 0;
+  scrollbar-width: none;
+}
+
+.carousel::-webkit-scrollbar {
+  display:none; 
+}
+
+.card {
+  width: 300px;
+  flex: 0 0 20%;
+  background-color: #fff;
+  /* border: 1px solid #ddd; */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* scroll-snap-align: start; */
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.price {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.price:hover{
+  transform: translateX(20deg);
+  animation:forwards;
+  animation-duration: 0.7s;
+  animation-timing-function: linear;
+  animation-iteration-count: initial;
+}
+@keyframes forwards{
+  0%{
+    transform: forwards(0deg);
+  }
+  100%{
+    transform: forwards(30deg);
+  }
+}
+.title {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #888;
+}
+
+.heart-icon {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 20px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.heart-icon:hover {
+  color: #ff4d4d;
+}
+
+/* Navigation Buttons */
+.nav-buttons {
+  display: flex;
+  justify-content: right;
+  position: absolute;
+  top: -50px;
+  width: 100%;
+  gap: 20px;
+  text-decoration: none;
+}
+
+.nav-button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.shopping-sect{
+  padding: 50px;
+}
+.shopping-text{
+  font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  padding: 10px;
+  text-align:left;
+  display: flex;
+}
+.shopping-image{
+  /* width: 200px; */
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  /* min-height: 100vh; */
+  gap: 22px;
+}
+h4{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* gap: 10px; */
+  font-weight: 600;
+  font-size: 18px;
+  width: 88%;
+}
+/* best of addidas */
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 150px ;
+}
+
+.container h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 120px;
+  color:black;
+  text-align: left;
+}
+
+.gallery {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 250px;
+  text-align: start;
+  /* overflow: visible; */
+  
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.info {
+  padding: 16px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #000;
+}
+
+.subtitle {
+  font-size: 12px;
+  color: black;
+  margin-bottom: 16px;
+}
+
+.shop-now {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+  text-decoration: underline;
+}
+/* popular right now! */
+.container2{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  /* margin-bottom: 20px; */
+  padding: 40px;
+}
+
+.popular-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  text-align: center;
+}
+
+.popular-links a {
+  font-size: 30px;
+  color:black;
+  text-decoration: none;
+  border-bottom: 50px thin solid black; 
+  position: relative;
+  display:inline-block;
+}
+/* story section */
+
+.dara{
+  background-color: black;
+  width: 100%;
+  /* max-width: 1440px; */
+  height: 100vh;
+}
+.containerr3 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #F5F5E5;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 140px;
+  gap: 40px;
+}
+
+.column {
+  flex: 1;
+  min-width: 300px;
+}
+h1{
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 16px;
+  color:black;
+  padding-bottom: 25px;
+}
+
+.column p {
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+
+
+/* join the community */
+.community-sect{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #EDE734;
+  padding: 38px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+  
+}
+.community-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: black; */
+  padding: 10px 14px;
+}
+.community-button a {
+  text-decoration:none;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: sans-serif;
+  background-color: black;
+}
+/* footer */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 26px;
+  background-color: #FFFFFF; 
+}
+
+
+
+.footer-section h2 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000; 
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #000; 
+  font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+/* Bottom Footer */
+.bottom-footer {
+  background-color: #282C31;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.bottom-footer a {
+  color: #cecdcd;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 12px;
+}
