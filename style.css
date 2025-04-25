@@ -296,6 +296,9 @@ nav {
     left: 120px;
     padding: 8px 12px;
   }
+  .community-sect{
+    flex-direction: column;
+  }
 }
 @media (max-width: 834px) {
   .hero-image h2 {
@@ -471,6 +474,20 @@ nav {
     flex: 0 0 15%;
   }
 }
+@media (max-width: 514px){
+  .containerr3{
+    width: 100%;
+  } 
+  .column p{
+    margin-right: 60px;
+  }
+}
+@media (max-width: 514px){
+  .column p{
+
+  }
+}
+
 
 /* main page */
 .top-text p {
@@ -483,7 +500,7 @@ nav {
 
 /* card-section */
 .carousel-container {
-  background-color: red;
+  /* background-color: red; */
 }
 
 .carousel {
@@ -713,6 +730,7 @@ h1 {
 .content {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   padding: 140px;
   gap: 40px;
 }
