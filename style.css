@@ -11,7 +11,7 @@
   justify-content: center;
   color: white;
   font-size: 12px;
-  padding: 2px;
+  padding: 10px;
   font-weight: 500;
   text-decoration: underline;
 }
@@ -21,12 +21,12 @@
   align-items: center;
   justify-content: right;
   gap: 1.2em;
-  padding-right: 140px;
 }
 .semi-header a {
   color: black;
   text-decoration: none;
   font-size: 10px;
+  padding: 0px;
 }
 header {
   padding: 10px 20px;
@@ -51,7 +51,7 @@ nav {
   color: black;
   text-decoration: none;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .li2 a {
   color: red;
@@ -76,6 +76,9 @@ nav {
 }
 .header-icon {
   display: none;
+}
+.fa-user {
+  color: black;
 }
 .logo {
   width: 90px;
@@ -296,7 +299,7 @@ nav {
     left: 120px;
     padding: 8px 12px;
   }
-  .community-sect{
+  .community-sect {
     flex-direction: column;
   }
 }
@@ -465,7 +468,7 @@ nav {
 }
 @media (max-width: 571px) {
   .carousel {
-    padding: 8px 0;
+    padding: 8px 0px;
   }
   .price {
     margin-bottom: 6px;
@@ -474,20 +477,16 @@ nav {
     flex: 0 0 15%;
   }
 }
-@media (max-width: 514px){
-  .containerr3{
+@media (max-width: 514px) {
+  .containerr3 {
     width: 100%;
-  } 
-  .column p{
+  }
+  .column p {
     margin-right: 60px;
   }
 }
-@media (max-width: 514px){
-  .column p{
-
-  }
+@media (max-width: 514px) {
 }
-
 
 /* main page */
 .top-text p {
@@ -499,9 +498,6 @@ nav {
 }
 
 /* card-section */
-.carousel-container {
-  /* background-color: red; */
-}
 
 .carousel {
   display: flex;
@@ -520,12 +516,16 @@ nav {
 .card {
   flex: 0 0 20%;
   background-color: #fff;
-  /* border: 1px solid #ddd; */
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  /* scroll-snap-align: start; */
+  cursor: pointer;
+  position: relative;
 }
-
+.card-hover:hover{
+  border: thin solid black;
+}
+.price:hover {
+  display: none;
+}
 .card img {
   width: 100%;
   display: block;
@@ -540,25 +540,26 @@ nav {
   color: #333;
   font-weight: bold;
   margin-bottom: 8px;
+  cursor: pointer;
 }
-.price:hover {
-  transform: translateX(20deg);
-  animation: forwards;
-  animation-duration: 0.7s;
-  animation-timing-function: linear;
-  animation-iteration-count: initial;
+/* .price{
+  transform: translateX(50deg);
+  animation:smooth;
+  animation-duration: 3s;
+  animation-timing-function: initial;
+  animation-iteration-count:initial;
 }
-@keyframes forwards {
+@keyframes smooth {
   0% {
     transform: forwards(0deg);
   }
   100% {
-    transform: forwards(30deg);
+    transform: forwards(50deg);
   }
-}
+} */
 .product-title {
   font-size: 14.5px;
-  color: red;
+  color: #888;
   margin-bottom: 4px;
 }
 
@@ -717,7 +718,6 @@ h1 {
 .dara {
   background-color: black;
   width: 100%;
-  /* max-width: 1440px; */
   height: 100vh;
 }
 .containerr3 {
@@ -770,8 +770,6 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: black; */
-  padding: 20px 26px;
 }
 .community-button a {
   text-decoration: none;
@@ -780,6 +778,7 @@ h1 {
   font-weight: 600;
   font-family: sans-serif;
   background-color: black;
+  padding: 20px 26px;
 }
 /* footer */
 .footer {
@@ -802,8 +801,8 @@ h1 {
 
 .footer-section ul li a {
   text-decoration: none;
-  color: #000;
-  font-size: 14px;
+  color: #282c31;
+  font-size: 15px;
 }
 
 .footer-section ul li a:hover {
