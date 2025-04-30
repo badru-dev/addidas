@@ -64,6 +64,9 @@ nav {
   align-items: center;
   margin-left: -48px;
 }
+.fa-user{
+  color: black;
+}
 .right-side {
   display: flex;
   align-items: center;
@@ -485,7 +488,112 @@ nav {
     margin-right: 60px;
   }
 }
-@media (max-width: 514px) {
+@media (max-width: 495px) {
+  .hero-image h2{
+    font-size: 22px;
+    top: 110px;
+    left: 40px;
+  }
+  .button-container {
+    top: 160px;
+    left: 40px;
+    padding: 4px 6px;
+  }
+  .button-container a {
+    font-size: 12px;
+  }
+  .firebird-container h3 {
+    bottom: 110px;
+    left: 40px;
+    font-size: 20px;
+  }
+  .retro-text {
+    bottom: 85px;
+    left: 40px;
+    font-size: 12px;
+  }
+  .button-container2 {
+    bottom: 30px;
+    left: 40px;
+    padding: 6px 8px;
+  }
+  .button-container2 a{
+    font-size: 12px;
+  }
+}
+@media (max-width: 417px) {
+  .hero-image h2{
+    font-size: 22px;
+    top: 90px;
+    left: 40px;
+  }
+  .button-container {
+    top: 130px;
+    left: 35px;
+    padding: 2px 2px;
+  }
+  .firebird-container h3 {
+    bottom: 110px;
+    left: 40px;
+    font-size: 16px;
+  }
+  .retro-text {
+    bottom: 90px;
+    left: 40px;
+    font-size: 10.5px;
+  }
+  .button-container2 {
+    bottom: 40px;
+    left: 40px;
+    padding: 4px 6px;
+  }
+  .button-container2 a{
+    font-size: 12px;
+  }
+}
+@media (max-width: 490px) {
+  .hero-image h2{
+    font-size: 22px;
+    top: 90px;
+    left: 40px;
+  }
+  .button-container {
+    top: 130px;
+    left: 35px;
+    padding: 2px 2px;
+  }
+  .firebird-container h3 {
+    bottom: 100px;
+    left: 40px;
+    font-size: 16px;
+  }
+  .retro-text {
+    bottom: 80px;
+    left: 40px;
+    font-size: 10.5px;
+  }
+  .button-container2 {
+    bottom: 30px;
+    left: 40px;
+    padding: 4px 6px;
+  }
+}
+@media (max-width: 345px){
+  .firebird-container h3 {
+    bottom: 90px;
+    left: 40px;
+    font-size: 16px;
+  }
+  .retro-text {
+    bottom: 75px;
+    left: 40px;
+    font-size: 10.5px;
+  }
+  .button-container2 {
+    bottom: 28px;
+    left: 40px;
+    padding: 4px 6px;
+  }
 }
 
 /* main page */
@@ -542,21 +650,6 @@ nav {
   margin-bottom: 8px;
   cursor: pointer;
 }
-/* .price{
-  transform: translateX(50deg);
-  animation:smooth;
-  animation-duration: 3s;
-  animation-timing-function: initial;
-  animation-iteration-count:initial;
-}
-@keyframes smooth {
-  0% {
-    transform: forwards(0deg);
-  }
-  100% {
-    transform: forwards(50deg);
-  }
-} */
 .product-title {
   font-size: 14.5px;
   color: #888;
@@ -580,6 +673,7 @@ nav {
 .heart-icon:hover {
   color: #ff4d4d;
 }
+/* who are you shopping for */
 .shopforeveryone {
   padding: 10px;
   background-color: white;

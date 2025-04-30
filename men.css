@@ -1,125 +1,121 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style-type: none;
-  }
-  .main-dropdown {
-    background-color: black;
-    text-align: center;
-    justify-content: center;
-    color: white;
-    font-size: 12px;
-    padding: 10px;
-    font-weight: 500;
-    text-decoration: underline;
-  }
-  
-  .semi-header {
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    gap: 1.2em;
-    
-  }
-  .semi-header a {
-    color: black;
-    text-decoration: none;
-    font-size: 10px;
-    padding: 0px;
-  }
-  header {
-    padding: 10px 20px;
-    /* border: 1px solid black; */
-    
-  }
-  .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+.main-dropdown {
+  background-color: black;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 12px;
+  padding: 10px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.semi-header {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 1.2em;
+}
+.semi-header a {
+  color: black;
+  text-decoration: none;
+  font-size: 10px;
+  padding: 0px;
+}
+header {
+  padding: 10px 20px;
+  /* border: 1px solid black; */
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.li {
+  display: flex;
+  align-items: center;
+  gap: 1.2em;
+}
+.li a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+}
+.li2 a {
+  color: red;
+}
+.form-control {
+  background-color: #eceff1;
+}
+.fa-magnifying-glass {
+  display: flex;
+  align-items: center;
+  margin-left: -48px;
+}
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 1.8em;
+  cursor: pointer;
+}
+.fa-bars {
+  font-size: 20px;
+  /* visibility: hidden; */
+}
+.header-icon {
+  display: none;
+}
+.fa-user {
+  color: black;
+}
+.logo {
+  width: 90px;
+}
+@media (max-width: 992px) {
   .li {
-    display: flex;
-    align-items: center;
-    gap: 1.2em;
-  }
-  .li a {
-    color: black;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 700;
-  }
-  .li2 a {
-    color: red;
-  }
-  .form-control {
-    background-color: #eceff1;
-  }
-  .fa-magnifying-glass {
-    display: flex;
-    align-items: center;
-    margin-left: -48px;
-  }
-  .right-side {
-    display: flex;
-    align-items: center;
-    gap: 1.8em;
-    cursor: pointer;
-  }
-  .fa-bars {
-    font-size: 20px;
-    /* visibility: hidden; */
-  }
-  .header-icon {
     display: none;
   }
-  .fa-user {
-    color: black;
+
+  .input {
+    display: none;
+  }
+  .favourite {
+    visibility: hidden;
+  }
+  .header-icon {
+    display: block;
+  }
+  .semi-header {
+    display: none;
   }
   .logo {
-    width: 90px;
+    width: 50px;
   }
-  @media (max-width: 992px) {
-    .li {
-      display: none;
-    }
-  
-    .input {
-      display: none;
-    }
-    .favourite{
-      visibility:hidden ;
-    }
-    .header-icon {
-      display: block;
-    }
-    .semi-header {
-      display: none;
-    }
-    .logo {
-      width: 50px;
-    }
-    .community-sect{
-      flex-direction: column;
-    }
-    .top-text p{
-      justify-content: left;
-      margin-left: -20px;
-    }
-    .carousel-container{
-      justify-content: left;
-      margin-left: -60px;
-    }
+  .community-sect {
+    flex-direction: column;
   }
- 
+  .top-text p {
+    justify-content: left;
+    margin-left: -20px;
+  }
+  .carousel-container {
+    justify-content: left;
+    margin-left: -60px;
+  }
+}
 
-  
 /* hero-sect */
 .hero-sect {
   display: block;
@@ -156,7 +152,7 @@
   color: #d9d1d19f;
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
 }
-.hero-section h2{
+.hero-section h2 {
   position: absolute;
   align-items: center;
   top: 380px;
@@ -166,7 +162,7 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: white;
 }
-.hero-section p{
+.hero-section p {
   position: absolute;
   align-items: center;
   top: 450px;
@@ -182,36 +178,210 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-align: left;
- margin-left: 100px;
-  padding: 20PX;
+  margin-left: 100px;
+  padding: 20px;
 }
-@media (max-width: 1257px){
-  .original-image{
+@media (max-width: 1257px) {
+  .original-image {
     width: 100%;
     /* height: 200%; */
   }
+}
+@media (max-width: 1086px) {
+  .card {
+    width: 220px;
+  }
+  .carousel {
+    padding: 8px 0;
+  }
+  .price {
+    margin-bottom: 6px;
+  }
+  .card {
+    flex: 0 0 15%;
+  }
+}
+@media (max-width: 1107px){
   .hero-section h2{
     top: 400px;
+    left: 120px;
+  }
+  .hero-section p{
+    left: 120px;
+    top:470px;
+  }
+  .button-container{
+    left: 120px;
+    top: 550px;
+  }
+}
+@media (max-width: 1034px){
+  .hero-section h2{
+    top: 400px;
+    left: 80px;
+  }
+  .hero-section p{
+    left: 80px;
+    top:470px;
+    font-size: 12px;
+  }
+  .button-container{
+    left: 80px;
+    top: 530px;
+    padding: 8px 12px;
+  }
+}
+@media (max-width: 997px){
+  .hero-section h2{
+    top: 360px;
+    left: 60px;
+  }
+  .hero-section p{
+    left: 60px;
+    top:420px;
+    font-size: 12px;
+  }
+  .button-container{
+    left: 60px;
+    top: 480px;
+    padding: 8px 12px;
+  }
+}
+@media (max-width: 960px){
+  .hero-section h2{
+    top: 310px;
+    left: 60px;
+    font-size: 26px;
+  }
+  .hero-section p{
+    left: 60px;
+    top:345px;
+    font-size: 11px;
+  }
+  .button-container{
+    left: 60px;
+    top: 400px;
+    padding: 8px 12px;
+  }
+}
+@media (max-width: 814px){
+  .hero-section h2{
+    top: 290px;
+    left: 40px;
+    font-size: 24px;
+  }
+  .hero-section p{
+    left: 40px;
+    top:325px;
+    font-size: 11px;
+  }
+  .button-container{
+    left: 40px;
+    top: 380px;
+    padding: 8px 12px;
+  }
+}
+@media (max-width: 750px){
+  .hero-section h2{
+    top: 250px;
+    left: 40px;
+    font-size: 24px;
+  }
+  .hero-section p{
+    left: 40px;
+    top:290px;
+    font-size: 11px;
+  }
+  .button-container{
+    left: 40px;
+    top: 340px;
+    padding: 8px 12px;
+  }
+}
+@media (max-width: 663px){
+  .hero-section h2{
+    top: 210px;
+    left: 40px;
+    font-size: 24px;
+  }
+  .hero-section p{
+    left: 40px;
+    top: 245px;
+    font-size: 10px;
+  }
+  .button-container{
+    left: 40px;
+    top: 300px;
+    padding: 8px 12px;
+  }
+}
+@media (max-width: 558px){
+  .hero-section h2{
+    top: 190px;
+    left: 40px;
+    font-size: 20px;
+  }
+  .hero-section p{
+    left: 40px;
+    top: 220px;
+    font-size: 10px;
+  }
+  .button-container{
+    left: 40px;
+    top: 280px;
+    padding: 6px 8px;
+  }
+}
+@media (max-width: 517px){
+  .hero-section h2{
+    top: 160px;
+    left: 40px;
+    font-size: 20px;
+  }
+  .hero-section p{
+    left: 40px;
+    top: 190px;
+    font-size: 10px;
+  }
+  .button-container{
+    left: 40px;
+    top: 240px;
+    padding: 6px 8px;
+  }
+}
+@media (max-width: 435px){
+  .hero-section h2{
+    top: 140px;
     left: 30px;
+    font-size: 18px;
   }
+  .hero-section p{
+    left: 30px;
+    top: 170px;
+    font-size: 10px;
   }
-  @media (max-width: 1086px){
-    .card{
-      width: 220px;
-    }
-    .carousel{
-      padding: 8px 0;
-    }
-    .price {
-      margin-bottom: 6px;
-    }
-    .card {
-      flex: 0 0 15%;
-    }
-    .carousel-container{
-      
-    }
-  
+  .button-container{
+    left: 30px;
+    top: 220px;
+    padding: 6px 8px;
+  }
+}
+@media (max-width: 389px){
+  .hero-section h2{
+    top: 130px;
+    left: 30px;
+    font-size: 18px;
+  }
+  .hero-section p{
+    left: 30px;
+    top: 155px;
+    font-size: 6px;
+  }
+  .button-container{
+    left: 30px;
+    top: 200px;
+    padding: 6px 8px;
+  }
 }
 
 /* card-section */
@@ -242,7 +412,7 @@
   width: 100%;
   display: block;
 }
-.card-hover:hover{
+.card-hover:hover {
   border: thin solid black;
 }
 
@@ -259,12 +429,12 @@
 }
 .price:hover {
   transform: translateX(20deg);
-  animation:infinite;
+  animation: infinite;
   animation-duration: 0.1s;
   animation-timing-function: linear;
   animation-iteration-count: initial;
 }
-@keyframes infinite{
+@keyframes infinite {
   0% {
     transform: forwards(0deg);
   }
@@ -326,22 +496,26 @@
 .top-text2 p {
   font-weight: 700;
   font-size: 28px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-align: left;
- margin-left: 100px;
-  padding: 50PX;
+  margin-left: 100px;
+  padding: 50px;
 }
-.addidas-text h2{
+/* addidas text */
+.addidas-text h2 {
   padding-top: 90px;
   text-align: center;
   font-weight: 700;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 30px;
 }
-.addidas-text p{
+.addidas-text p {
   text-align: center;
   padding: 10px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
   padding-bottom: 130px;
 }
@@ -396,7 +570,8 @@
   text-decoration: none;
   color: #282c31;
   font-size: 15px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .footer-section ul li a:hover {
@@ -417,4 +592,3 @@
   margin: 0 10px;
   font-size: 12px;
 }
-

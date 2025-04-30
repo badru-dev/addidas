@@ -80,6 +80,9 @@ nav {
 .header-icon {
   display: none;
 }
+.fa-user{
+  color: black;
+}
 .logo {
   width: 90px;
 }
