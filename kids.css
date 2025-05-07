@@ -78,11 +78,52 @@ nav {
 .header-icon {
   display: none;
 }
+.fa-suitcase-rolling{
+  color: #000;
+}
 .fa-user {
   color: black;
 }
 .logo {
   width: 90px;
+}
+.drop-dropdown{
+  position: absolute;
+  z-index: 999;
+  background-color: white;
+  width: 100%;
+  top: 8em;
+  left: 0em;
+  height: 50vh;
+  display: none;
+}
+.menu1:hover .drop-dropdown{
+  display: block;
+  -webkit-transition-delay: 0s;
+}
+.dropdown{
+  display: flex;
+  margin-top: 2em;
+  justify-content: space-around;
+  background-color: white;
+}
+.dropdown-menu{
+  line-height: 1.4em;
+}
+.dropdown-menu h5 a{
+  font-size: 1.3em;
+}
+.dropdown-menu h5 a:hover{
+  border-bottom: 1px solid black;
+}
+.dropdown-menu h5{
+  margin-bottom: 0.8em;
+}
+.dropdown-menu li a{
+  font-weight: 350;
+}
+.dropdown-menu li a:hover{
+  border-bottom: 1px solid black;
 }
 @media (max-width: 992px) {
   .li {

@@ -4,7 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
-  font-family: "Cascadia Mono", sans-serif;
+  /* font-family: "Cascadia Mono", sans-serif; */
 }
 .main-dropdown {
   background-color: black;
